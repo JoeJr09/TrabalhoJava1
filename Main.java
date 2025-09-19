@@ -6,14 +6,18 @@ public class Main {
         Atleta at = new Atleta();
 
         //Setando valores
-        pe.setNome("Maranhão");
-        pe.setAltura(1.85);
-        pe.setPeso(80);
+        at.setNome("Maranhão");
+        at.setAltura(1.85);
+        at.setPeso(80);
         at.setEsporte("Futebol");
 
-        at.setNome("Pedro");
-        at.setAltura(1.73);
-        at.setPeso(72);
+        pe.setNome("Pedro");
+        pe.setAltura(1.73);
+        pe.setPeso(72);
+
+        pe.setNome("Renan");
+        pe.setAltura(1.70);
+        pe.setPeso(65);
 
         //Calculando IMC
         at.IMC();

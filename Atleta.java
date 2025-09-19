@@ -11,10 +11,10 @@ public class Atleta extends Pessoa {
 
     @Override
     void mostrasrDados(){
-        System.out.println("Nome da Pessoa atleta: " + getNome());
-        System.out.println("Peso da Pessoa atleta: " + getPeso());
-        System.out.println("Altura da Pessoa atleta: " + getAltura());
-        System.out.println("IMC da pessoa atleta (ajustado -5%): " + IMC());
+        System.out.println("Nome do atleta: " + getNome());
+        System.out.println("Peso do atleta: " + getPeso());
+        System.out.println("Altura do atleta: " + getAltura());
+        System.out.println("IMC doatleta (ajustado -5%): " + IMC());
         System.out.println("Esporte Praticado: " + esporte);
         System.out.println("Obs: O IMC do atleta é ajustado por conta do alto rendimento físico, sendo 5% menor que o cálculo padrão.");
         System.out.println("----");
